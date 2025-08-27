@@ -1,0 +1,1758 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Commercial Equipment & Machinery | Alibaba.com - Global Wholesale Marketplace</title>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <link rel="stylesheet" href="/exam_web/idexsty.css">
+</head>
+
+<body>
+
+<div id="particles-js"></div>
+  <header class="header main-header" id="mainHeader">
+    <div class="container" id="mainHeaderContent">
+      <div class="main-header-content">
+        <a href="/" class="logo">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSijFXMEpYWIFjDtIqEx_WH4fAVWQeYzR7vhIDt_dN5aMlGiBBb3VhWE08hCXSt9BDbLfM&usqp=CAU" alt="Alibaba.com">
+        </a>
+
+        <div class="search-container">
+          <form class="search-form">
+            <div class="search-input-group">
+              <select class="search-dropdown">
+                <option>All Categories</option>
+                <option>Commercial Equipment</option>
+                <option>Machinery</option>
+                <option>Industrial Supplies</option>
+                <option>Tools & Hardware</option>
+              </select>
+              <input type="text" class="search-input" placeholder="What are you looking for?">
+              <button type="button" class="camera-btn">
+                <svg viewBox="0 0 24 24" width="20" height="20">
+                  <path d="M4 4h7l2-2h4l2 2h7v16H4V4zm12 7a5 5 0 11-10 0 5 5 0 0110 0z"></path>
+                </svg>
+              </button>
+            </div>
+            <button type="submit" class="search-btn">Search</button>
+          </form>
+        </div>
+
+        <div class="user-actions">
+          <button class="action-btn" aria-label="Messages">
+            <svg viewBox="0 0 24 24" width="24" height="24">
+              <path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"></path>
+            </svg>
+          </button>
+          <button class="action-btn" aria-label="Orders">
+            <svg viewBox="0 0 24 24" width="24" height="24">
+              <path
+                d="M13 12h7v1.5h-7zm0-2.5h7V11h-7zm0 5h7V16h-7zM21 4H3c-1.1 0-2 .9-2 2v13c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 15H3V6h18v13z">
+              </path>
+            </svg>
+          </button>
+          <div class="cart-icon">
+            🛒
+            <span class="cart-badge" style="display:none;">0</span>
+          </div>
+          <button class="account-btn" id="loginBtn">
+            <svg viewBox="0 0 24 24" width="24" height="24">
+              <path
+                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z">
+              </path>
+            </svg>
+            <span id="loginText">Sign In</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+<div class="modal-overlay" id="loginModal">
+  <div class="login-modal">
+    <div class="login-header">
+      <h2>Welcome Back!</h2>
+      <p>Please login to continue</p>
+      <button class="modal-close" id="closeLoginModal">&times;</button>
+    </div>
+    
+    <form id="loginForm" class="login-form">
+      <div class="input-group">
+        <input type="email" id="email" required>
+        <label for="email">Email Address</label>
+        <div class="underline"></div>
+      </div>
+      
+      <div class="input-group">
+        <input type="password" id="password" required>
+        <label for="password">Password</label>
+        <div class="underline"></div>
+      </div>
+      
+      <button type="submit" class="login-submit">
+        <span>Login</span>
+        <svg viewBox="0 0 24 24" width="20" height="20">
+          <path d="M5 12h14M12 5l7 7-7 7"></path>
+        </svg>
+      </button>
+      <div class="login-footer">
+        <p>Don't have an account? <a href="#" id="showRegister">Sign up</a></p>
+        <a href="#" class="forgot-password">Forgot password?</a>
+      </div>
+    </form>
+    
+    <div class="social-login">
+      <p>Or login with</p>
+      <div class="social-icons">
+        <button class="social-btn google">
+          <img src="https://cdn-icons-png.flaticon.com/512/2991/2991148.png" alt="Google">
+        </button>
+        <button class="social-btn facebook">
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- Font Awesome (ដាក់ក្នុង <head>) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <nav class="secondary-navbar">
+  <div class="nav-container">
+    <ul class="nav-group">
+      <li class="nav-item has-dropdown">
+        <a class="nav-link">
+          <i class="fas fa-th-list"></i> All categories <i class="fas fa-chevron-down" style="margin-left:5px; font-size:12px;"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#">Agriculture Machinery</a>
+          <a href="#">Construction Equipment</a>
+          <a href="#">Food & Beverage Machinery</a>
+          <a href="#">Metal & Metallurgy</a>
+          <a href="#">Packaging Machinery</a>
+        </div>
+      </li>
+    </ul>
+
+
+      <li class="nav-item has-dropdown">
+        <a class="nav-link supplier-btn">
+          <i class="fas fa-store"></i> Become a Supplier <i class="fas fa-chevron-down" style="margin-left:5px; font-size:12px;"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#">Open Store</a>
+          <a href="#">Supplier Tools</a>
+          <a href="#">Membership Info</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+<div class="slides">
+  <img src="https://aeoncambodia.com/wp-content/uploads/2022/07/1280x413-Website-1024x330.png" alt="Banner 1">
+  <img src="https://aeoncambodia.com/wp-content/uploads/2022/07/Website-Size_Master-EN-copy@2x.png" alt="Banner 2">
+  <img src="https://oss2.tnaot.com/tnaot/image/2020/12/03/4478bf15e0bf4b2b82bc9f3d570d111d.jpg" alt="Banner 3">
+  <img src="https://www.amkcambodia.com/wp-content/uploads/2023/03/Website-02-1024x256.jpg" alt="Banner 4">
+  <img src="https://aeoncambodia.com/wp-content/uploads/2022/07/1280x413-Website-1024x330.png" alt="Banner 5">
+</div>
+
+
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content">
+    <h1>Commercial Equipment & Machinery</h1>
+    <p>Source from thousands of verified suppliers with competitive prices and premium quality</p>
+    <button class="btn-primary">Explore Now</button>
+  </div>
+</section>
+
+
+<section class="hero1">
+<div class="img-container">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8BSOWpDgG_-e0AnYBpX8C4nebZy96ZcN6xA&s" class="img1">
+  <img src="https://scontent.fpnh9-2.fna.fbcdn.net/v/t39.30808-6/480726599_484519038043463_8294104121984003318_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFvZ13uJZHlHdFN6dLU_Z3WdQb6OkDobGd1Bvo6QOhsZ7CUbfjagkjdJ5uNn22yF_iiQDIuISJiqOHj_jgkhEPa&_nc_ohc=TVMQziE2hQAQ7kNvwECzH0X&_nc_oc=Adk78m-TED3cRPrsJA-oQxvCpW5ThVDiNJLMWVoDSQrrPyVl3xhK52eHEi1clmGTh0k&_nc_zt=23&_nc_ht=scontent.fpnh9-2.fna&_nc_gid=eoFqkQlF9hAfHqYnuKvFeA&oh=00_AfU0dCK7zRLbHAkcRNw6buBJup5fGQjfzAH9DDQTt-7ACA&oe=68B4A2B3" class="img1">
+  <img src="https://scontent.fpnh9-1.fna.fbcdn.net/v/t39.30808-6/481115372_484518611376839_8237691093428947131_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGyyamxX3Srth8M_UX_2Fgk9n0Q11dAovD2fRDXV0Ci8C-2YYTtZ_NMAFcmTyholcBakmgROC_r1bk2bAZqMA2s&_nc_ohc=CO7VQIYdrAYQ7kNvwFG3PSP&_nc_oc=AdmepmcLLABzRD9gIyyTRnAEwcmverPyYPhDq8ZlC2eb_7GP63T8tNXwWAWSanscVfg&_nc_zt=23&_nc_ht=scontent.fpnh9-1.fna&_nc_gid=G8xc0TNcHu8c8_BHJxQIbA&oh=00_AfVNRdbxGVcDFsDZ0BsIm436UDL658kJ12e_YcOKsnDPaQ&oe=68B48AA9" class="img1">
+  <img src="https://scontent.fpnh9-1.fna.fbcdn.net/v/t39.30808-6/480655283_484519058043461_5906973971717615198_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFIKS1Dr3n0YGF2IXHg1xz_X6BevNryQwlfoF682vJDCcsSb-XMnC50x9jSTRWXXQ1xTFA7SjfvLCmcsJe7idm2&_nc_ohc=sMwVN35xjyAQ7kNvwGn4c9v&_nc_oc=AdlEWnfNAFXgDlT7Ps7Co-Kx1mEHft3rURBHMrvoDJRlCzLSjR7vcSzNl1wwdxp9Wtg&_nc_zt=23&_nc_ht=scontent.fpnh9-1.fna&_nc_gid=KILVa4brccuweldhJMmNMg&oh=00_AfUvd5aAEVzgdU8WeGjw6XLvaj5f6JoUDDlkloC4Valc3w&oe=68B4B61A" class="img1">
+  <img src="https://scontent.fpnh9-1.fna.fbcdn.net/v/t39.30808-6/485010869_1083628633803340_8405419525231524705_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeERuZDg_3W2FRUX4NYstnONd8PSaH-bmZx3w9Jof5uZnNaBYvliqQT7S_LOQbsoNTCLv4oj9sz4SE5S0x5YJTcD&_nc_ohc=tYLTEWi1j08Q7kNvwFOdRBs&_nc_oc=Adm_jNFh4jXws21xOnlQO0sLbNLXtXxGFmStydOO16ApzQA_Re0QhtL6HMk5y9PA3Oo&_nc_zt=23&_nc_ht=scontent.fpnh9-1.fna&_nc_gid=nT7uwaBrNQvQNQCTzkCLAg&oh=00_AfUE4jWoCF15Bl1_jwqCd7qnSDXmuqeljRSOOgHQnwLOAg&oe=68B48B0B" class="img1">
+</div>
+
+</section>
+
+
+  <!-- Featured Products -->
+  <section class="section">
+    <h2 class="section-title">Featured Products</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <div class="product-image-container">
+          <img src="https://ext.same-assets.com/120203203/1273577494.jpeg" alt="Food Trucks" class="product-image">
+          <div class="product-badge">New Arrival</div>
+        </div>
+        <div class="product-content">
+          <div class="product-name">Mobile Food Truck for Business</div>
+          <div class="product-price">$8,500.00 - $15,000.00</div>
+          <div class="product-order">Min. order: 1 unit</div>
+          <div class="product-actions">
+            <button class="btn-cart" data-id="1">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+              Add to Cart
+            </button>
+            <button class="btn-buy">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image-container">
+          <img src="https://ext.same-assets.com/120203203/4291026201.jpeg" alt="Photo Booth" class="product-image">
+          <div class="product-badge">Best Seller</div>
+        </div>
+        <div class="product-content">
+          <div class="product-name">Photo Booth Machine with Printer</div>
+          <div class="product-price">$1,200.00 - $1,800.00</div>
+          <div class="product-order">Min. order: 1 set</div>
+          <div class="product-actions">
+            <button class="btn-cart" data-id="2">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+              Add to Cart
+            </button>
+            <button class="btn-buy">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image-container">
+          <img src="https://ext.same-assets.com/120203203/110725786.png" alt="Drink Dispensers" class="product-image">
+          <div class="product-badge">Hot Item</div>
+        </div>
+        <div class="product-content">
+          <div class="product-name">Commercial Drink Dispenser 3 Tanks</div>
+          <div class="product-price">$150.00 - $300.00</div>
+          <div class="product-order">Min. order: 2 units</div>
+          <div class="product-actions">
+            <button class="btn-cart" data-id="3">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+              Add to Cart
+            </button>
+            <button class="btn-buy">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image-container">
+          <img src="https://ext.same-assets.com/120203203/1808919011.jpeg" alt="Refrigerators" class="product-image">
+          <div class="product-badge">Limited Stock</div>
+        </div>
+        <div class="product-content">
+          <div class="product-name">Commercial Refrigerator Glass Door</div>
+          <div class="product-price">$800.00 - $1,200.00</div>
+          <div class="product-order">Min. order: 1 unit</div>
+          <div class="product-actions">
+            <button class="btn-cart" data-id="4">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+              Add to Cart
+            </button>
+            <button class="btn-buy">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image-container">
+          <img src="https://ext.same-assets.com/120203203/1242352767.jpeg" alt="Ice Machines" class="product-image">
+          <div class="product-badge">Special Offer</div>
+        </div>
+        <div class="product-content">
+          <div class="product-name">Commercial Ice Making Machine</div>
+          <div class="product-price">$1,500.00 - $3,000.00</div>
+          <div class="product-order">Min. order: 1 unit</div>
+          <div class="product-actions">
+            <button class="btn-cart" data-id="5">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+              Add to Cart
+            </button>
+            <button class="btn-buy">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image-container">
+          <img src="https://s.alicdn.com/@sc04/kf/H2f0ce3fe5dda4438a51e09759432a20e5.jpg_250x250xz.jpg"
+            alt="Cash Registers" class="product-image">
+          <div class="product-badge">Verified</div>
+        </div>
+        <div class="product-content">
+          <div class="product-name">POS System Cash Register with Touch Screen</div>
+          <div class="product-price">$200.00 - $500.00</div>
+          <div class="product-order">Min. order: 1 unit</div>
+          <div class="product-actions">
+            <button class="btn-cart" data-id="6">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+              Add to Cart
+            </button>
+            <button class="btn-buy">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image-container">
+          <img src="https://s.alicdn.com/@sc04/kf/Hc61708e808bd4378aa421daca46a1fc4L.jpg_250x250xz.jpg"
+            alt="Cash Registers" class="product-image">
+          <div class="product-badge">Verified</div>
+        </div>
+        <div class="product-content">
+          <div class="product-name">POS System Cash Register with Touch Screen</div>
+          <div class="product-price">$200.00 - $500.00</div>
+          <div class="product-order">Min. order: 1 unit</div>
+          <div class="product-actions">
+            <button class="btn-cart" data-id="7">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+              Add to Cart
+            </button>
+            <button class="btn-buy">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image-container">
+          <img src="https://s.alicdn.com/@sc04/kf/H7a599caa2e264b20b3162fc6d238addbA.jpg_250x250xz.jpg"
+            alt="Cash Registers" class="product-image">
+          <div class="product-badge">Verified</div>
+        </div>
+        <div class="product-content">
+          <div class="product-name">POS System Cash Register with Touch Screen</div>
+          <div class="product-price">$200.00 - $500.00</div>
+          <div class="product-order">Min. order: 1 unit</div>
+          <div class="product-actions">
+            <button class="btn-cart" data-id="8">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+              Add to Cart
+            </button>
+            <button class="btn-buy">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image-container">
+          <img src="https://s.alicdn.com/@sc04/kf/H680760c8e8514854aebf2f7263aad61eA.jpg_250x250xz.jpg"
+            alt="Cash Registers" class="product-image">
+          <div class="product-badge">Verified</div>
+        </div>
+        <div class="product-content">
+          <div class="product-name">POS System Cash Register with Touch Screen</div>
+          <div class="product-price">$200.00 - $500.00</div>
+          <div class="product-order">Min. order: 1 unit</div>
+          <div class="product-actions">
+            <button class="btn-cart" data-id="9">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+              Add to Cart
+            </button>
+            <button class="btn-buy">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image-container">
+          <img src="https://s.alicdn.com/@sc04/kf/H6e688fc6bf7c4ba9b43ed50a6a7cdcf7I.jpg_250x250xz.jpg"
+            alt="Cash Registers" class="product-image">
+          <div class="product-badge">Verified</div>
+        </div>
+        <div class="product-content">
+          <div class="product-name">POS System Cash Register with Touch Screen</div>
+          <div class="product-price">$200.00 - $500.00</div>
+          <div class="product-order">Min. order: 1 unit</div>
+          <div class="product-actions">
+            <button class="btn-cart" data-id="10">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+              Add to Cart
+            </button>
+            <button class="btn-buy">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image-container">
+          <img src="https://s.alicdn.com/@sc04/kf/H7258391663df4578bb841662ecd844e6y.jpg_250x250xz.jpg"
+            alt="Cash Registers" class="product-image">
+          <div class="product-badge">Verified</div>
+        </div>
+        <div class="product-content">
+          <div class="product-name">POS System Cash Register with Touch Screen</div>
+          <div class="product-price">$200.00 - $500.00</div>
+          <div class="product-order">Min. order: 1 unit</div>
+          <div class="product-actions">
+            <button class="btn-cart" data-id="11">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+              Add to Cart
+            </button>
+            <button class="btn-buy">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image-container">
+          <img src="https://ext.same-assets.com/120203203/464796012.jpeg" alt="Cash Registers" class="product-image">
+          <div class="product-badge">Verified</div>
+        </div>
+        <div class="product-content">
+          <div class="product-name">POS System Cash Register with Touch Screen</div>
+          <div class="product-price">$200.00 - $500.00</div>
+          <div class="product-order">Min. order: 2 unit</div>
+          <div class="product-actions">
+            <button class="btn-cart" data-id="12">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+              Add to Cart
+            </button>
+            <button class="btn-buy">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image-container">
+          <img src="https://s.alicdn.com/@sc04/kf/He2a83cf11e314ecfabddda137ce061342.jpg_250x250xz.jpg"
+            alt="Cash Registers" class="product-image">
+          <div class="product-badge">Verified</div>
+        </div>
+        <div class="product-content">
+          <div class="product-name">POS System Cash Register with Touch Screen</div>
+          <div class="product-price">$200.00 - $500.00</div>
+          <div class="product-order">Min. order: 1 unit</div>
+          <div class="product-actions">
+            <button class="btn-cart" data-id="13">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+              Add to Cart
+            </button>
+            <button class="btn-buy">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image-container">
+          <img src="https://s.alicdn.com/@sc04/kf/HTB1z5KNaoGF3KVjSZFoq6zmpFXad.jpg_250x250xz.jpg" alt="Cash Registers"
+            class="product-image">
+          <div class="product-badge">Verified</div>
+        </div>
+        <div class="product-content">
+          <div class="product-name">POS System Cash Register with Touch Screen</div>
+          <div class="product-price">$200.00 - $500.00</div>
+          <div class="product-order">Min. order: 1 unit</div>
+          <div class="product-actions">
+            <button class="btn-cart" data-id="14">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+              Add to Cart
+            </button>
+            <button class="btn-buy">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image-container">
+          <img src="https://s.alicdn.com/@sc04/kf/H40fb4fe98e014cb9bd830a53bbdec505l.jpg_250x250xz.jpg"
+            alt="Cash Registers" class="product-image">
+          <div class="product-badge">Verified</div>
+        </div>
+        <div class="product-content">
+          <div class="product-name">POS System Cash Register with Touch Screen</div>
+          <div class="product-price">$200.00 - $500.00</div>
+          <div class="product-order">Min. order: 2 unit</div>
+          <div class="product-actions">
+            <button class="btn-cart" data-id="15">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+              Add to Cart
+            </button>
+            <button class="btn-buy">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image-container">
+          <img src="https://s.alicdn.com/@sc04/kf/Hb45dc5b51f5c464c863b0032b3db334bZ.png_250x250xz.jpg"
+            alt="Cash Registers" class="product-image">
+          <div class="product-badge">Verified</div>
+        </div>
+        <div class="product-content">
+          <div class="product-name">POS System Cash Register with Touch Screen</div>
+          <div class="product-price">$200.00 - $500.00</div>
+          <div class="product-order">Min. order: 1 unit</div>
+          <div class="product-actions">
+            <button class="btn-cart" data-id="16">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+              Add to Cart
+            </button>
+            <button class="btn-buy">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image-container">
+          <img src="https://s.alicdn.com/@sc04/kf/H3aabb51ea3fc492e8eb050224f3662cfx.png_250x250xz.jpg"
+            alt="Cash Registers" class="product-image">
+          <div class="product-badge">Verified</div>
+        </div>
+        <div class="product-content">
+          <div class="product-name">POS System Cash Register with Touch Screen</div>
+          <div class="product-price">$200.00 - $500.00</div>
+          <div class="product-order">Min. order: 1 unit</div>
+          <div class="product-actions">
+            <button class="btn-cart" data-id="3">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+              Add to Cart
+            </button>
+            <button class="btn-buy">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image-container">
+          <img src="https://s.alicdn.com/@sc04/kf/Hbe2a6955775c4303956765ab5574fb52c.png_250x250xz.jpg"
+            alt="Cash Registers" class="product-image">
+          <div class="product-badge">Verified</div>
+        </div>
+        <div class="product-content">
+          <div class="product-name">POS System Cash Register with Touch Screen</div>
+          <div class="product-price">$200.00 - $500.00</div>
+          <div class="product-order">Min. order: 1 unit</div>
+          <div class="product-actions">
+            <button class="btn-cart" data-id="17">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+              Add to Cart
+            </button>
+            <button class="btn-buy">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image-container">
+          <img src="https://s.alicdn.com/@sc04/kf/He8f26a6b2e394b90bd6d6aba3dfbb38bT.jpg_250x250xz.jpg"
+            alt="Cash Registers" class="product-image">
+          <div class="product-badge">Verified</div>
+        </div>
+        <div class="product-content">
+          <div class="product-name">POS System Cash Register with Touch Screen</div>
+          <div class="product-price">$200.00 - $500.00</div>
+          <div class="product-order">Min. order: 1 unit</div>
+          <div class="product-actions">
+            <button class="btn-cart" data-id="18">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+              Add to Cart
+            </button>
+            <button class="btn-buy">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image-container">
+          <img src="https://s.alicdn.com/@sc04/kf/H992eeedb9bb3416d9b93c531f33c0dd0K.jpg_250x250xz.jpg"
+            alt="Cash Registers" class="product-image">
+          <div class="product-badge">Verified</div>
+        </div>
+        <div class="product-content">
+          <div class="product-name">POS System Cash Register with Touch Screen</div>
+          <div class="product-price">$200.00 - $500.00</div>
+          <div class="product-order">Min. order: 1 unit</div>
+          <div class="product-actions">
+            <button class="btn-cart" data-id="19">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+              Add to Cart
+            </button>
+            <button class="btn-buy">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image-container">
+          <img src="https://s.alicdn.com/@sc04/kf/H9f7186d2656b47b9871e8e880baf070f5.jpg_250x250xz.jpg"
+            alt="Cash Registers" class="product-image">
+          <div class="product-badge">Verified</div>
+        </div>
+        <div class="product-content">
+          <div class="product-name">POS System Cash Register with Touch Screen</div>
+          <div class="product-price">$200.00 - $500.00</div>
+          <div class="product-order">Min. order: 1 unit</div>
+          <div class="product-actions">
+            <button class="btn-cart" data-id="20">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+              Add to Cart
+            </button>
+            <button class="btn-buy">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image-container">
+          <img src="https://s.alicdn.com/@sc04/kf/H712f32c3e47f43d78e3532314266b1b0P.jpg_250x250xz.jpg"
+            alt="Cash Registers" class="product-image">
+          <div class="product-badge">Verified</div>
+        </div>
+        <div class="product-content">
+          <div class="product-name">POS System Cash Register with Touch Screen</div>
+          <div class="product-price">$200.00 - $500.00</div>
+          <div class="product-order">Min. order: 1 unit</div>
+          <div class="product-actions">
+            <button class="btn-cart" data-id="21">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+              Add to Cart
+            </button>
+            <button class="btn-buy">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image-container">
+          <img src="https://s.alicdn.com/@sc04/kf/H24bbeda24ff247c1805cf376145d2d68e.jpg_250x250xz.jpg"
+            alt="Cash Registers" class="product-image">
+          <div class="product-badge">Verified</div>
+        </div>
+        <div class="product-content">
+          <div class="product-name">POS System Cash Register with Touch Screen</div>
+          <div class="product-price">$200.00 - $500.00</div>
+          <div class="product-order">Min. order: 1 unit</div>
+          <div class="product-actions">
+            <button class="btn-cart" data-id="22">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+              Add to Cart
+            </button>
+            <button class="btn-buy">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image-container">
+          <img src="https://s.alicdn.com/@sc04/kf/Hd9735b3de5964c20bd5384d22f5de23ck.jpg_250x250xz.jpg"
+            alt="Cash Registers" class="product-image">
+          <div class="product-badge">Verified</div>
+        </div>
+        <div class="product-content">
+          <div class="product-name">POS System Cash Register with Touch Screen</div>
+          <div class="product-price">$200.00 - $500.00</div>
+          <div class="product-order">Min. order: 1 unit</div>
+          <div class="product-actions">
+            <button class="btn-cart" data-id="23">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+              Add to Cart
+            </button>
+            <button class="btn-buy">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image-container">
+          <img src="https://s.alicdn.com/@sc04/kf/Hb9de7b693fcc41409fecf38f49f82f6eT.jpg_250x250xz.jpg"
+            alt="Cash Registers" class="product-image">
+          <div class="product-badge">Verified</div>
+        </div>
+        <div class="product-content">
+          <div class="product-name">POS System Cash Register with Touch Screen</div>
+          <div class="product-price">$200.00 - $500.00</div>
+          <div class="product-order">Min. order: 1 unit</div>
+          <div class="product-actions">
+            <button class="btn-cart" data-id="24">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+              Add to Cart
+            </button>
+            <button class="btn-buy" data-id="3">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image-container">
+          <img src="https://s.alicdn.com/@sc04/kf/Hd61d0f8fdb0f4c8ea48a130fc36ad3bcY.png_250x250xz.jpg"
+            alt="Cash Registers" class="product-image">
+          <div class="product-badge">Verified</div>
+        </div>
+        <div class="product-content">
+          <div class="product-name">POS System Cash Register with Touch Screen</div>
+          <div class="product-price">$200.00 - $500.00</div>
+          <div class="product-order">Min. order: 1 unit</div>
+          <div class="product-actions">
+            <button class="btn-cart" data-id="25">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+              Add to Cart
+            </button>
+            <button class="btn-buy">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image-container">
+          <img src="https://s.alicdn.com/@sc04/kf/H073d2d8748fb4303a257611dcee0ca09j.jpg_250x250xz.jpg"
+            alt="Cash Registers" class="product-image">
+          <div class="product-badge">Verified</div>
+        </div>
+        <div class="product-content">
+          <div class="product-name">POS System Cash Register with Touch Screen</div>
+          <div class="product-price">$200.00 - $500.00</div>
+          <div class="product-order">Min. order: 1 unit</div>
+          <div class="product-actions">
+            <button class="btn-cart" data-id="26">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+              Add to Cart
+            </button>
+            <button class="btn-buy">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image-container">
+          <img src="https://s.alicdn.com/@sc04/kf/H0e3e7a36990f4421834a82443617626dq.jpg_250x250xz.jpg"
+            alt="Cash Registers" class="product-image">
+          <div class="product-badge">Verified</div>
+        </div>
+        <div class="product-content">
+          <div class="product-name">POS System Cash Register with Touch Screen</div>
+          <div class="product-price">$200.00 - $500.00</div>
+          <div class="product-order">Min. order: 1 unit</div>
+          <div class="product-actions">
+            <button class="btn-cart">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+              Add to Cart
+            </button>
+            <button class="btn-buy" data-id="27">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image-container">
+          <img src="https://s.alicdn.com/@sc04/kf/H0e3e7a36990f4421834a82443617626dq.jpg_250x250xz.jpg"
+            alt="Cash Registers" class="product-image">
+          <div class="product-badge">Verified</div>
+        </div>
+        <div class="product-content">
+          <div class="product-name">POS System Cash Register with Touch Screen</div>
+          <div class="product-price">$200.00 - $500.00</div>
+          <div class="product-order">Min. order: 1 unit</div>
+          <div class="product-actions">
+            <button class="btn-cart">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+              Add to Cart
+            </button>
+            <button class="btn-buy" data-id="27">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image-container">
+          <img src="https://s.alicdn.com/@sc04/kf/H957846f69ee64e148a0674b072bf93be3.png_250x250xz.jpg"
+            alt="Cash Registers" class="product-image">
+          <div class="product-badge">Verified</div>
+        </div>
+        <div class="product-content">
+          <div class="product-name">POS System Cash Register with Touch Screen</div>
+          <div class="product-price">$200.00 - $500.00</div>
+          <div class="product-order">Min. order: 1 unit</div>
+          <div class="product-actions">
+            <button class="btn-cart" data-id="28">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+              Add to Cart
+            </button>
+            <button class="btn-buy">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image-container">
+          <img src="https://s.alicdn.com/@sc04/kf/S510d66cecc564f08ab3e18d29eb9277cj.jpg_250x250xz.jpg"
+            alt="Cash Registers" class="product-image">
+          <div class="product-badge">Verified</div>
+        </div>
+        <div class="product-content">
+          <div class="product-name">POS System Cash Register with Touch Screen</div>
+          <div class="product-price">$200.00 - $500.00</div>
+          <div class="product-order">Min. order: 1 unit</div>
+          <div class="product-actions">
+            <button class="btn-cart" data-id="29">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+              Add to Cart
+            </button>
+            <button class="btn-buy">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image-container">
+          <img src="https://s.alicdn.com/@sc04/kf/H3e8ace3331c641b1a0e40296bd83baf1o.jpg_250x250xz.jpg"
+            alt="Cash Registers" class="product-image">
+          <div class="product-badge">Verified</div>
+        </div>
+        <div class="product-content">
+          <div class="product-name">POS System Cash Register with Touch Screen</div>
+          <div class="product-price">$200.00 - $500.00</div>
+          <div class="product-order">Min. order: 1 unit</div>
+          <div class="product-actions">
+            <button class="btn-cart" data-id="30">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+              Add to Cart
+            </button>
+            <button class="btn-buy">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image-container">
+          <img src="https://s.alicdn.com/@sc04/kf/H124567844f7243a9b1715f85af57292az.jpg_250x250xz.jpg"
+            alt="Cash Registers" class="product-image">
+          <div class="product-badge">Verified</div>
+        </div>
+        <div class="product-content">
+          <div class="product-name">POS System Cash Register with Touch Screen</div>
+          <div class="product-price">$200.00 - $500.00</div>
+          <div class="product-order">Min. order: 1 unit</div>
+          <div class="product-actions">
+            <button class="btn-cart" data-id="31">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+              Add to Cart
+            </button>
+            <button class="btn-buy">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image-container">
+          <img src="https://s.alicdn.com/@sc04/kf/H12b7bbf78e0d4a89b35270e99e241e08z.jpg_250x250xz.jpg"
+            alt="Cash Registers" class="product-image">
+          <div class="product-badge">Verified</div>
+        </div>
+        <div class="product-content">
+          <div class="product-name">POS System Cash Register with Touch Screen</div>
+          <div class="product-price">$200.00 - $500.00</div>
+          <div class="product-order">Min. order: 1 unit</div>
+          <div class="product-actions">
+            <button class="btn-cart" data-id="32">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+              Add to Cart
+            </button>
+            <button class="btn-buy">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image-container">
+          <img src="https://s.alicdn.com/@sc04/kf/H12b7bbf78e0d4a89b35270e99e241e08z.jpg_250x250xz.jpg"
+            alt="Cash Registers" class="product-image">
+          <div class="product-badge">Verified</div>
+        </div>
+        <div class="product-content">
+          <div class="product-name">POS System Cash Register with Touch Screen</div>
+          <div class="product-price">$200.00 - $500.00</div>
+          <div class="product-order">Min. order: 1 unit</div>
+          <div class="product-actions">
+            <button class="btn-cart" data-id="32">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+              Add to Cart
+            </button>
+            <button class="btn-buy">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image-container">
+          <img src="https://s.alicdn.com/@sc04/kf/Hd3ff15f971b24eb1a81d24e10ef6d74eV.jpg_720x720q50.jpg"
+            alt="Cash Registers" class="product-image">
+          <div class="product-badge">Verified</div>
+        </div>
+        <div class="product-content">
+          <div class="product-name">POS System Cash Register with Touch Screen</div>
+          <div class="product-price">$200.00 - $500.00</div>
+          <div class="product-order">Min. order: 1 unit</div>
+          <div class="product-actions">
+            <button class="btn-cart" data-id="33">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+              Add to Cart
+            </button>
+            <button class="btn-buy">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image-container">
+          <img src="https://s.alicdn.com/@sc04/kf/H60f48414fc9042b59a8c2e403c39ec7dx.jpg_720x720q50.jpg"
+            alt="Cash Registers" class="product-image">
+          <div class="product-badge">Verified</div>
+        </div>
+        <div class="product-content">
+          <div class="product-name">POS System Cash Register with Touch Screen</div>
+          <div class="product-price">$200.00 - $500.00</div>
+          <div class="product-order">Min. order: 1 unit</div>
+          <div class="product-actions">
+            <button class="btn-cart" data-id="34">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+              Add to Cart
+            </button>
+            <button class="btn-buy">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image-container">
+          <img src="https://s.alicdn.com/@sc04/kf/Hbfbce5ee181b46df96ab90f9eecaa9e9Z.jpg_720x720q50.jpg"
+            alt="Cash Registers" class="product-image">
+          <div class="product-badge">Verified</div>
+        </div>
+        <div class="product-content">
+          <div class="product-name">POS System Cash Register with Touch Screen</div>
+          <div class="product-price">$200.00 - $500.00</div>
+          <div class="product-order">Min. order: 7 unit</div>
+          <div class="product-actions">
+            <button class="btn-cart" data-id="35">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+              Add to Cart
+            </button>
+            <button class="btn-buy">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image-container">
+          <img src="https://s.alicdn.com/@sc04/kf/Hbfae0499b7e64295abcac0a9713409ecW.jpg_720x720q50.jpg"
+            alt="Cash Registers" class="product-image">
+          <div class="product-badge">Verified</div>
+        </div>
+        <div class="product-content">
+          <div class="product-name">POS System Cash Register with Touch Screen</div>
+          <div class="product-price">$200.00 - $500.00</div>
+          <div class="product-order">Min. order: 9 unit</div>
+          <div class="product-actions">
+            <button class="btn-cart" data-id="36">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+              Add to Cart
+            </button>
+            <button class="btn-buy">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image-container">
+          <img src="https://s.alicdn.com/@sc04/kf/HTB1Al6GXwaH3KVjSZFjq6AFWpXaP.jpg_720x720q50.jpg" alt="Cash Registers"
+            class="product-image">
+          <div class="product-badge">Verified</div>
+        </div>
+        <div class="product-content">
+          <div class="product-name">POS System Cash Register with Touch Screen</div>
+          <div class="product-price">$200.00 - $500.00</div>
+          <div class="product-order">Min. order: 4 unit</div>
+          <div class="product-actions">
+            <button class="btn-cart" data-id="37">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+              Add to Cart
+            </button>
+            <button class="btn-buy">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image-container">
+          <img src="https://s.alicdn.com/@sc04/kf/HTB1Al6GXwaH3KVjSZFjq6AFWpXaP.jpg_720x720q50.jpg" alt="Cash Registers"
+            class="product-image">
+          <div class="product-badge">Verified</div>
+        </div>
+        <div class="product-content">
+          <div class="product-name">POS System Cash Register with Touch Screen</div>
+          <div class="product-price">$200.00 - $500.00</div>
+          <div class="product-order">Min. order: 8 unit</div>
+          <div class="product-actions">
+            <button class="btn-cart" ​ data-id="38">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+              Add to Cart
+            </button>
+            <button class="btn-buy">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="product-card">
+        <div class="product-image-container">
+          <img src="https://ext.same-assets.com/120203203/110725786.png" alt="Drink Dispensers" class="product-image">
+          <div class="product-badge">Hot Item</div>
+        </div>
+        <div class="product-content">
+          <div class="product-name">Commercial Drink Dispenser 3 Tanks</div>
+          <div class="product-price">$150.00 - $300.00</div>
+          <div class="product-order">Min. order: 2 units</div>
+          <div class="product-actions">
+            <button class="btn-cart" data-id="39">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+              </svg>
+              Add to Cart
+            </button>
+            <button class="btn-buy">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Product Detail Modal -->
+  <div class="modal-overlay" id="productModal">
+    <div class="product-modal">
+      <button class="modal-close" id="closeModal">&times;</button>
+      <div class="modal-content">
+        <div class="modal-image-container">
+          <img src="" alt="Product Image" class="modal-image" id="modalImage">
+        </div>
+        <div class="modal-details">
+          <h2 class="modal-title" id="modalTitle">Product Title</h2>
+          <div class="modal-price" id="modalPrice">$0.00</div>
+          <div class="modal-order" id="modalOrder">Min. order: 0 units</div>
+
+          <div class="modal-description" id="modalDescription">
+            Product description will appear here.
+          </div>
+
+          <div class="modal-specs">
+            <h3>Specifications</h3>
+            <div class="spec-item">
+              <div class="spec-label">Material:</div>
+              <div class="spec-value" id="specMaterial">-</div>
+            </div>
+            <div class="spec-item">
+              <div class="spec-label">Dimensions:</div>
+              <div class="spec-value" id="specDimensions">-</div>
+            </div>
+            <div class="spec-item">
+              <div class="spec-label">Weight:</div>
+              <div class="spec-value" id="specWeight">-</div>
+            </div>
+            <div class="spec-item">
+              <div class="spec-label">Warranty:</div>
+              <div class="spec-value" id="specWarranty">-</div>
+            </div>
+          </div>
+
+          <div class="modal-actions">
+            <button class="modal-btn modal-btn-cart" id="modalAddCart">
+              <i class="fas fa-shopping-cart"></i>
+              Add to Cart
+            </button>
+            <button class="modal-btn modal-btn-buy" id="modalBuyNow">
+              <i class="fas fa-bolt"></i>
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Testimonials -->
+  <section class="testimonial-section" >
+    <div class="testimonial-container"  id="mainHeader">
+      <h2 class="testimonial-title">What Our Buyers Say</h2>
+      <div class="testimonial-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-text">
+            "The food truck I purchased exceeded my expectations. Quality is excellent and the supplier
+            provided great
+            after-sales support."
+          </div>
+          <div class="testimonial-author">
+            <img src="data:image/jpeg;base64,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" alt="John D." class="author-avatar">
+            <div class="author-info">
+              <h4>John D.</h4>
+              <p>Restaurant Owner, USA</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-text">
+            "Fast shipping and the commercial refrigerator works perfectly in my cafe. Will definitely
+            order again from
+            this supplier."
+          </div>
+          <div class="testimonial-author">
+            <img src="/img/chang.png.PNG" alt="Sarah M." class="author-avatar">
+            <div class="author-info">
+              <h4>Sarah M.</h4>
+              <p>Cafe Manager, UK</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-text">
+            "The bakery oven arrived well-packaged and was easy to install. It's been running non-stop for
+            6 months with
+            no issues."
+          </div>
+          <div class="testimonial-author">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2yrEGaN2fusWKpPPWBBShSy-oWEuxrFRZmSP_H0DqumBkZyAiUR9SCOXcneB0efYF79c&usqp=CAU" alt="Michael T." class="author-avatar">
+            <div class="author-info">
+              <h4>Michael T.</h4>
+              <p>Bakery Owner, Australia</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-text">
+            "Excellent communication throughout the process. The meat slicer is exactly as described and
+            works perfectly
+            in our deli."
+          </div>
+          <div class="testimonial-author">
+            <img src="data:image/jpeg;base64,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" alt="Emma L." class="author-avatar">
+            <div class="author-info">
+              <h4>Emma L.</h4>
+              <p>Deli Owner, Canada</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-text">
+            "Excellent communication throughout the process. The meat slicer is exactly as described and
+            works perfectly
+            in our deli."
+          </div>
+          <div class="testimonial-author">
+            <img src="data:image/jpeg;base64,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" alt="Emma L." class="author-avatar">
+            <div class="author-info">
+              <h4>Emma L.</h4>
+              <p>Deli Owner, Canada</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-column">
+          <h3>Buy on Alibaba.com</h3>
+          <ul class="footer-links">
+            <li><a href="#">Buyer Central</a></li>
+            <li><a href="#">Sourcing Solutions</a></li>
+            <li><a href="#">Trade Assurance</a></li>
+            <li><a href="#">Logistics Services</a></li>
+            <li><a href="#">Membership Services</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Sell on Alibaba.com</h3>
+          <ul class="footer-links">
+            <li><a href="#">Supplier Membership</a></li>
+            <li><a href="#">Learning Center</a></li>
+            <li><a href="#">Partner Program</a></li>
+            <li><a href="#">Seller Tools</a></li>
+            <li><a href="#">Seller Performance</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>About Us</h3>
+          <ul class="footer-links">
+            <li><a href="#">About Alibaba.com</a></li>
+            <li><a href="#">Sustainability</a></li>
+            <li><a href="#">Investor Relations</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Help</h3>
+          <ul class="footer-links">
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Disputes & Reports</a></li>
+            <li><a href="#">Report IPR Infringement</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Download App</h3>
+          <ul class="footer-links">
+            <li><a href="#"><img src="https://s.alicdn.com/@img/im/icbu/app-store-badge-en.svg" alt="App Store"
+                  style="height: 40px;"></a></li>
+            <li><a href="#"><img src="https://s.alicdn.com/@img/im/icbu/google-play-badge-en.svg" alt="Google Play"
+                  style="height: 40px;"></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>© 2025 group 3 .com</div>
+        <div class="social-links">
+          <a href="#"><svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+              <path
+                d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z">
+              </path>
+            </svg></a>
+          <a href="#"><svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+              <path
+                d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z">
+              </path>
+            </svg></a>
+          <a href="#"><svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+              <path
+                d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84">
+              </path>
+            </svg></a>
+          <a href="#"><svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+              <path
+                d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z">
+              </path>
+            </svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="chat-box" id="chatBox">
+  <div class="chat-header" id="chatHeader">Chat</div>
+  <div class="chat-body" id="chatBody">
+    <div class="chat-message bot">
+      <div class="message-text">Hello! How can I help you?</div>
+    </div>
+  </div>
+  <div class="chat-footer" id="chatFooter">
+    <input type="text" id="chatInput" placeholder="Type a message...">
+    <button id="sendBtn">Send</button>
+  </div>
+</div>
+    <script src="/exam_web/indexjs.js"></script>
+</body>
+</html>
