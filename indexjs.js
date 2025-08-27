@@ -185,7 +185,7 @@ if (isQR) {
   
   // ផ្លាស់ប្តូរទីនេះជាប់ភ្ជាប់រូបភាពថ្មីរបស់អ្នក
   const customImage = document.createElement('img');
-  customImage.src = 'exam_web/qr.jpg'; // ✅ forward slash
+  customImage.src = 'qr.jpg'; // ✅ forward slash
   customImage.alt = 'Custom Image';
   customImage.style.width = '100px';
   customImage.style.height = '100px';
